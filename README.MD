@@ -4,7 +4,7 @@ This is a simple CLI tool to verify the stock of products.
 
 ## Why?
 
-> During the Argentina's quarantine there is no stock available of some basic products. So, I decided to make my life a bit easier building this tool in order to know when the supermarket has new stock.
+> During the Argentina's outbreack there is no stock available of some basic products. So, I decided to make my life a bit easier building this tool in order to know when the supermarket has new stock.
 
 ## How it works.
 
@@ -28,8 +28,10 @@ There are some requirements to start using this tool. Following these steps is v
 
 After that, create a `.env` file at the root directory and add these variables and values to it.
 
-> SESSION_COOKIE=your-JSESSIONID-value
-> SUCURSAL_ID=your-sucursalId-value
+```
+SESSION_COOKIE=your-JSESSIONID-value
+SUCURSAL_ID=your-sucursalId-value
+```
 
 That's it, we already be able to use this tool.
 
