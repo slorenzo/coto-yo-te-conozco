@@ -1,0 +1,20 @@
+{
+  "description": "Products list to check if their are available",
+  "products": [
+    {
+      "productName": "lavandina"
+    },
+    {
+      "productName": "Cerveza andes"
+    },
+    {
+      "productName": "Papel higienico"
+    },
+    {
+      "productName": "Pascualina"
+    },
+    {
+      "productName": "Carne picada"
+    }
+  ]
+}
