@@ -1,0 +1,35 @@
+{
+  "name": "coto-digital",
+  "description": "Disponibilidad de productos en Coto Digital",
+  "author": "Sebastian Lorenzo <SebastianLorenzo@gmail.com>",
+  "main": "main.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "lodash.isempty": "^4.4.0",
+    "ms": "^2.1.2",
+    "node-cron": "^2.0.3",
+    "normalize-text": "^2.0.1",
+    "promise-request-retry": "^1.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "request-promise-retry": "^1.0.0",
+    "tty-table": "^4.1.1"
+  },
+  "scripts": {
+    "start": "node --no-warnings --experimental-modules --es-module-specifier-resolution=node main.js",
+    "prettier:watch": "onchange '**/*.js' -- prettier --write {{changed}}"
+  },
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "onchange": "^6.1.0",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
