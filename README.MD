@@ -1,4 +1,4 @@
-# COTO: YO TE CONOZC0clear.
+# COTO: YO TE CONOZCO
 
 This is a simple CLI tool to verify the stock of products.
 
